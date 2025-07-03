@@ -1,0 +1,89 @@
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#header-title {
+  font-size: 24px;
+  color: darkred;
+  text-align: center;
+}
+
+#registration-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  font-size: 16px;
+  color: darkslategray;
+  margin-bottom: 10px;
+}
+
+.form-fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 20px;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+.article-title {
+  font-size: 18px;
+  color: darkgreen;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+[type="text"],
+[type="email"],
+[type="password"],
+[type="date"],
+[type="number"],
+[type="tel"],
+[type="range"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(225, 225, 225);
+}
+
+form p {
+  display: inline-block;
+  width: 100px;
+  color: red;
+}
+
+form > p {
+  border-bottom: 1px solid #eee;
+  color: blue;
+}
+
+form label {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(32, 165, 121);
+  display: inline-block;
+  width: 100px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smentic Tag</title>
+    <!-- 해당 문서 내부에서 h1을 스타일링함(인라인 스타일로 이런 스타일을 지양함) -->
+    <!-- <style>
+        h1 {
+            color:green;
+            text-align: center;
+        }
+    </style> -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="header_title">문서의 제목입니다</h1>
+      <nav>
+        <ul>
+          <li class="link">Link : <a href="#home">홈</a></li>
+          <li class="link">Link : <a href="#introduction">소개</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <h2>주요소개</h2>
+      <section style="border: 3px solid gray">
+        <h3 class="article-title">섹션 제목</h3>
+        <p>
+          이것은 섹션의 내용입니다. 섹션은 문서의 주요 부분을 나누는 데
+          사용됩니다.
+        </p>
+      </section>
+      <article>
+        <h2 class="article-title">기사 제목</h2>
+        <p>이것은 기사 내용입니다. 기사는 독립적인 내용을 담고 있습니다.</p>
+        <input type="text" name="username" />
+        <a href="https://example.com">링크</a>
+        <input type="email" name="useremail" />
+      </article>
+      <div id="container">
+        <button class="container-btn">컨테이너버튼</button>
+        <ul>
+          <li class="container-item">리스트 아이템 1</li>
+          <li class="container-item">리스트 아이템 2</li>
+          <li class="container-item">리스트 아이템 3</li>
+        </ul>
+      </div>
+    </main>
+    <aside>
+      <h3>사이드바 제목</h3>
+      <ul>
+        <li><a href="#adv">광고 링크</a></li>
+        <li><a href="#pricvacy-term">개인정보확인</a></li>
+        <li><a href="#user-term">이용약관</a></li>
+      </ul>
+    </aside>
+    <hr />
+    <footer>
+      <p>&copy; All rights reserved.</p>
+      <!-- <p>저작권 © 2023. 모든 권리 보유.</p> -->
+      <address>
+        <p>
+          연락처: <a href="mailto:jazzfox39@gmail.com">jazzfox39@gmail.com</a>
+        </p>
+      </address>
+    </footer>
+    <hr />
+  </body>
+</html>

@@ -1,0 +1,90 @@
+* {
+  margin: 4px;
+  padding: 4px;
+}
+
+header {
+  border: 3px solid green;
+}
+
+.article-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+/* h2 {
+    color: blue;
+    text-align: center;
+} */
+
+#header_title {
+  font-size: 32px;
+  color: purple;
+  text-align: center;
+}
+
+#header ul {
+  background-color: beige;
+}
+
+/* 앵커 태그에 기본 스타일을 적용합니다. */
+a {
+  text-decoration: none;
+  color: black;
+  /* cursor: pointer; */
+}
+
+.link {
+  font-size: 24px;
+  color: orangered;
+}
+
+.link > a {
+  text-decoration: underline;
+  color: orange;
+}
+
+/* 속성 선택자는 항상 대문자 */
+[type="text"] {
+  border: 1px dotted gray;
+}
+
+[href*="example"] {
+  color: red;
+  font-weight: bold;
+}
+
+[name="useremail"] {
+  background-color: aqua;
+}
+
+#container {
+  background-color: bisque;
+}
+
+#container .container-btn {
+  font-size: 16px;
+}
+
+#container .container-btn:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  font-size: 17px;
+}
+
+#container .container-item:first-child {
+  font-size: 22px;
+}
+
+#container .container-item:last-child {
+  font-size: 10px;
+}
+
+#container .container-item::before {
+  content: "🚀";
+}
+
+#container .container-item::after {
+  content: "!!!";
+}
