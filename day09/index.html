@@ -14,6 +14,63 @@
       };
       profile.name = "oz2";
       profile.age = 30;
+
+      let string1 = "작은따옴표(/')가 포함됩니다.";
+      let string2 = '큰따옴표(")가 포함됩니다.';
+      // console.log("string1", string1);
+      // console.log("string2", string2);
+
+      let stringA = "문자열" + " 연결";
+      let stringB = string1 + " " + string2;
+      console.log("stringA", stringA);
+      console.log("stringB", stringB);
+
+      //ES6 문자열
+      let myName = "hoon";
+      let OLDstring = "나의 이름은 " + myName + "입니다.";
+      let ES6string = `나의 이름은 ${myName}입니다.`;
+      console.log("OLDstring :", OLDstring);
+      console.log("ES6string :", ES6string);
+
+      let bllolean1 = true;
+      let bllolean2 = false;
+      let bllolean3 = 1 > 2;
+      let bllolean4 = 1 < 2;
+      console.log("bllolean1", bllolean1);
+      console.log("bllolean2", bllolean2);
+      console.log("bllolean3", bllolean3);
+      console.log("bllolean4", bllolean4);
+
+      let studentScore = [80, 90, 100, 70];
+      let emptyScore = [];
+      console.log(studentScore);
+      console.log("studentScore[0]", studentScore[0]);
+      console.log("studentScore[1]", studentScore[1]);
+      console.log("studentScore[2]", studentScore[2]);
+      console.log("studentScore[3]", studentScore[3]);
+      console.log("studentScore.length", studentScore.length);
+
+      console.log(emptyScore);
+      console.log("emptyScore", emptyScore);
+      console.log("emptyScore.length", emptyScore.length);
+
+      // literal object
+      let studentSubjectsScore = {
+        Korean: 80,
+        English: 90,
+        Math: 100,
+        Science: 70,
+      };
+      console.log(studentSubjectsScore);
+      console.log("studentSubjectsScore.Korean", studentSubjectsScore.Korean);
+      console.log(
+        "studentSubjectsScore['Korean']",
+        studentSubjectsScore["Korean"]
+      );
+      console.log("studentSubjectsScore.English", studentSubjectsScore.English);
+      console.log("studentSubjectsScore.Math", studentSubjectsScore.Math);
+      console.log("studentSubjectsScore.Science", studentSubjectsScore.Science);
+      console.log("studentSubjectsScore.length", studentSubjectsScore.length);
     </script>
   </body>
 </html>
